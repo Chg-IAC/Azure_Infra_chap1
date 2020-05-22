@@ -51,7 +51,7 @@ resource "azurerm_network_interface" "vmaz_net" {
 
 resource "azurerm_windows_virtual_machine" "vmaz" {
   
-  name                = "${var.vm[0]}"
+  name                = "vmaz"
   resource_group_name = "${var.resource_group}"
   location            = "${var.location}"
   size                = "Standard_F2"
