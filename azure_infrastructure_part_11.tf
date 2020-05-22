@@ -47,7 +47,6 @@ resource "azurerm_network_interface" "vmaz_net" {
     public_ip_address_id          = azurerm_public_ip.ip_floating_Vmaz.id
   }
 }
-#for (i = 0; i < 3; i++) {
 
 resource "azurerm_windows_virtual_machine" "vmaz" {
   
