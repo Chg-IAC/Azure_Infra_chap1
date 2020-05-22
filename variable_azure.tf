@@ -1,4 +1,4 @@
-/*variable "subscription_id" {
+variable "subscription_id" {
   description = "Id of subscription of azure's provider."
   default     = "feb54016-2be4-4232-80fe-8b20a5d5cbf5"
 }
@@ -23,7 +23,3 @@ variable "location" {
   default     = "westeurope"
 }
 
-variable "vm" {
-    type    = list(string)
-    default = ["vmaz", "test1", "test2"]
-}*/
